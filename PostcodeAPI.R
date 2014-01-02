@@ -4,8 +4,6 @@ library(RCurl)
 # Select data for conversion
 Postcodes <- read.delim("D:/95_RAW_DATA_LIBRARY/www.postcodeapi.nu/PostcodeAPI/Postcodes.txt")
 
-data.etendrinken = read.csv('http://95.211.30.140/~atcb/data/EtenDrinken.csv', sep=';')
-
 
 
 # Get Postcode
